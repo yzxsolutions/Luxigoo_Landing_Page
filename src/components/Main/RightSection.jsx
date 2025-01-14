@@ -53,9 +53,7 @@ export default function RightSection() {
             src="/src/assets/images/ic_baseline-flight.svg"
             alt="Flight icon"
           />
-          <span className="text-purple-600 text-sm font-medium">
-            Jakarta - Bali
-          </span>
+          <span className=" text-sm font-medium">Jakarta - Bali</span>
         </div>
       </div>
     </div>

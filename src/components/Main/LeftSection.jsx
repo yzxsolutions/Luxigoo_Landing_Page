@@ -13,12 +13,10 @@ export default function LeftSection() {
         </p>
       </div>
 
-      <p className="text-sm text-purple-600 font-medium">
-        From the house of{" "}
-        <span className="font-bold">
-          <img src="/src/assets/images/flyzone.png" width={70} alt="" />
-        </span>
-      </p>
+      <div className="flex gap-2 items-center">
+        <p className="text-sm  font-bold">From the house of</p>
+        <img src="/src/assets/images/flyzone.png" width={70} alt="" />
+      </div>
 
       <div className="pt-8">
         <h3 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent mb-2 p-2 pl-0">
