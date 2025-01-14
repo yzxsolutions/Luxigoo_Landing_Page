@@ -1,3 +1,5 @@
+import "/src/styles/plainAnimation.css";
+import "/src/styles/floatingAnimation.css";
 export default function RightSection() {
   return (
     <div className="relative w-full h-full flex justify-center items-center">
@@ -11,16 +13,17 @@ export default function RightSection() {
         }}
       >
         {/* Dummy Images */}
-        <div className="absolute top-10 bg-white rounded-xl p-1">
+        <div className="absolute top-10 bg-white rounded-xl p-1 animate-image">
           <img
             src="/src/assets/images/item1.png"
             alt="Travel destination"
             className="rounded-xl shadow-lg w-58 h-42 object-cover"
+            style={{ animationDelay: "0s" }}
           />
         </div>
         <div
-          style={{ top: 310 }}
-          className="absolute right-20  bg-white rounded-xl p-1 "
+          style={{ top: 310, animationDelay: "2s" }}
+          className="absolute right-20  bg-white rounded-xl p-1  animate-image"
         >
           <img
             src="/src/assets/images/item2.png"
@@ -29,8 +32,8 @@ export default function RightSection() {
           />
         </div>
         <div
-          className="absolute  bg-white rounded-xl p-1"
-          style={{ top: 450, left: 140 }}
+          className="absolute  bg-white rounded-xl p-1 animate-image"
+          style={{ top: 450, left: 140, animationDelay: "4s" }}
         >
           <img
             src="/src/assets/images/item3.png"
@@ -39,7 +42,10 @@ export default function RightSection() {
           />
         </div>
 
-        <div className="absolute" style={{ top: 170, left: 230 }}>
+        <div
+          className="absolute plane-animation"
+          style={{ top: 170, left: 230 }}
+        >
           <img
             src="/src/assets/images/plane.png"
             alt="Travel destination"

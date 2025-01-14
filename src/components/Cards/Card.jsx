@@ -41,7 +41,7 @@ export default function Card() {
         {destinations.map((destination, index) => (
           <div
             key={index}
-            className="bg-transparent rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 border-4 border-white"
+            className="bg-transparent rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 border-4 border-white backdrop-blur-lg"
           >
             <img
               src={destination.image}

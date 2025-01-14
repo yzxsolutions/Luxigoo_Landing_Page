@@ -1,0 +1,18 @@
+.plane-animation {
+    animation: planeMove 6s ease-out forwards;
+    /* 3 seconds animation */
+    transform: translateX(500px) scale(0.2);
+    /* Start small and off-screen */
+}
+
+@keyframes planeMove {
+    from {
+        transform: translateX(500px) scale(0);
+        /* Start off-screen and small */
+    }
+
+    to {
+        transform: translateX(0) scale(1);
+        /* Final position and normal size */
+    }
+}
