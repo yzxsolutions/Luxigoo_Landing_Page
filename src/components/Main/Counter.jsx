@@ -29,17 +29,21 @@ const CountdownTimer = ({ targetDate }) => {
   }, [targetDate]);
 
   const timeBoxes = [
-    { label: "days", value: timeLeft.days, shade: "rgba(116, 12, 208)" },
-    { label: "hours", value: timeLeft.hours, shade: "rgba(116, 12, 208, 0.8)" },
+    { label: "days", value: timeLeft.days, shades: "rgba(116, 12, 208)" },
+    {
+      label: "hours",
+      value: timeLeft.hours,
+      shades: "rgba(116, 12, 208, 0.8)",
+    },
     {
       label: "minutes",
       value: timeLeft.minutes,
-      shade: "rgba(116, 12, 208, 0.6)",
+      shades: "rgba(116, 12, 208, 0.6)",
     },
     {
       label: "seconds",
       value: timeLeft.seconds,
-      shade: "rgba(116, 12, 208, 0.4)",
+      shades: "rgba(116, 12, 208, 0.4)",
     },
   ];
 
@@ -59,7 +63,7 @@ const CountdownTimer = ({ targetDate }) => {
             <div key={label} className="flex flex-col items-center">
               <div
                 className="w-20 h-20 flex items-center justify-center rounded-lg text-white text-3xl font-bold shadow-lg"
-                style={{ backgroundColor: shade }}
+                style={{ backgroundColor: shades }}
               >
                 {String(value).padStart(2, "0")}
               </div>
