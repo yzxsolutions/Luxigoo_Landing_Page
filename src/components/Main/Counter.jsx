@@ -59,7 +59,7 @@ const CountdownTimer = ({ targetDate }) => {
           Countdown Start:
         </h2>
         <div className="flex justify-center gap-4">
-          {timeBoxes.map(({ label, value, shade }) => (
+          {timeBoxes.map(({ label, value, shades }) => (
             <div key={label} className="flex flex-col items-center">
               <div
                 className="w-20 h-20 flex items-center justify-center rounded-lg text-white text-3xl font-bold shadow-lg"
