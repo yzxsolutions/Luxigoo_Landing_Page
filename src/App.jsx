@@ -7,22 +7,22 @@ const LandingPage = () => {
   const destinations = [
     {
       title: "Malaysia",
-      image: "/api/placeholder/300/200",
+      image: "/src/assets/images/Malaysia.png",
       days: "5 Days",
     },
     {
       title: "Lakshadweep",
-      image: "/api/placeholder/300/200",
+      image: "/src/assets/images/Lakshadweep.png",
       days: "6 Days",
     },
     {
       title: "Thailand",
-      image: "/api/placeholder/300/200",
+      image: "/src/assets/images/Thailand.png",
       days: "5 Days",
     },
     {
       title: "Jammu & Kashmir",
-      image: "/api/placeholder/300/200",
+      image: "/src/assets/images/Kashmir.png",
       days: "4 Days",
     },
   ];
