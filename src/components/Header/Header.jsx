@@ -10,21 +10,22 @@ export default function Header() {
           width={150}
           height={200}
         />
-
-        <Button
-          sx={{
-            backgroundColor: "orange",
-            "&:hover": {
-              backgroundColor: "darkorange",
-            },
-            color: "white",
-            padding: "8px 16px",
-            borderRadius: "8px",
-            transition: "background-color 0.3s",
-          }}
-        >
-          Contact Us
-        </Button>
+        <a href="#travelForm">
+          <Button
+            sx={{
+              backgroundColor: "orange",
+              "&:hover": {
+                backgroundColor: "darkorange",
+              },
+              color: "white",
+              padding: "8px 16px",
+              borderRadius: "8px",
+              transition: "background-color 0.3s",
+            }}
+          >
+            Contact Us
+          </Button>
+        </a>
       </div>
     </nav>
   );
