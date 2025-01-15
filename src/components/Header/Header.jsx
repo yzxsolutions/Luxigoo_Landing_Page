@@ -7,7 +7,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center sm:justify-center">
           <img
-            src="/src/assets/images/Luxigoo_logo.png"
+            src="src/assets/images/Luxigoo_logo.png"
             alt="Luxigoo"
             width={150}
             height={200}
