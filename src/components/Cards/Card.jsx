@@ -4,25 +4,25 @@ export default function Card() {
   const destinations = [
     {
       title: "Malaysia",
-      image: "src/assets/images/Malaysia.png",
+      image: "/images/Malaysia.png",
       days: "5 Days",
       location: "The Petronas Towers",
     },
     {
       title: "Lakshadweep",
-      image: "src/assets/images/Lakshadweep.png",
+      image: "/images/Lakshadweep.png",
       days: "6 Days",
       location: "Virgin shore of kalpeni",
     },
     {
       title: "Thailand",
-      image: "src/assets/images/Thailand.png",
+      image: "/images/Thailand.png",
       days: "5 Days",
       location: "Bangkok",
     },
     {
       title: "Jammu & Kashmir",
-      image: "src/assets/images/Kashmir.png",
+      image: "/images/Kashmir.png",
       days: "4 Days",
       location: "Sonamarg , Jammu & Kashmir",
     },
