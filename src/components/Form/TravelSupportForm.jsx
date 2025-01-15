@@ -88,13 +88,13 @@ const TravelSupportForm = () => {
             <div className="flex items-center">
               <div className="bg-violet-700 rounded-xl py-3 px-6 flex items-center gap-3">
                 <Phone className="text-white" size={24} />
-                <span>+91 9074575374</span>
+                <span>+91 9656912864</span>
               </div>
             </div>
 
             <div className="flex items-center gap-3">
               <MapPin className="text-white" size={24} />
-              <span>123 Street 456 House</span>
+              <span>NEAR MG COLLEGE VIA PUNNAD - IRITTY</span>
             </div>
           </div>
 
