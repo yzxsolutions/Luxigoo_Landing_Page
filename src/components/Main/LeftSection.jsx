@@ -13,7 +13,7 @@ export default function LeftSection() {
 
       <div className="flex gap-2 items-center">
         <p className="text-sm  font-bold">From the house of</p>
-        <img src="/images/flyzone.png" width={70} alt="" />
+        <img src="/Luxigoo_Landing_Page/images/flyzone.png" width={70} alt="" />
       </div>
 
       <div className="pt-8">

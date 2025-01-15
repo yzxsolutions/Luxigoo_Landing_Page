@@ -12,7 +12,7 @@ export default function RightSection() {
         style={{
           height: "600px",
           width: "700px",
-          backgroundImage: `url('/images/circlebg.png')`, // Replace with your background image path
+          backgroundImage: `url('/Luxigoo_Landing_Page/images/circlebg.png')`, // Replace with your background image path
         }}
       >
         {/* Dummy Images */}

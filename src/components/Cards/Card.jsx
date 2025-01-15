@@ -50,7 +50,7 @@ export default function Card() {
             />
             <div className="py-8 px-4">
               <div className="flex gap-2">
-                <img src="src/assets/images/Location.svg" alt="" />
+                <img src="/Luxigoo_Landing_Page/images/Location.svg" alt="" />
                 <p className="text-xs text-gray-600">{destination.location}</p>
               </div>
 
