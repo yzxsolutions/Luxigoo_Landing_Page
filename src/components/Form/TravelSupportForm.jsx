@@ -24,7 +24,7 @@ const TravelSupportForm = () => {
             <div className="flex items-center gap-3">
               <Mail className="text-white" size={24} />
               <a href="mailto: fayad@gmail.com">
-                <span>example@gmail.com</span>
+                <span>Info.luxigoo@gmail.com</span>
               </a>
             </div>
 
