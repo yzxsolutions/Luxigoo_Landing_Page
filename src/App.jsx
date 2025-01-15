@@ -53,7 +53,7 @@ const LandingPage = () => {
         <div
           className="w-full h-[500px] bg-cover bg-center"
           style={{
-            backgroundImage: `url('src/assets/images/Luxigoo_logo.svg')`,
+            backgroundImage: `url('/Luxigoo_Landing_Page/images/Luxigoo_logo.svg')`,
           }}
         ></div>
 
