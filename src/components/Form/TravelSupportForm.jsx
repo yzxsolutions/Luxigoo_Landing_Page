@@ -33,25 +33,34 @@ const TravelSupportForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus({ submitting: true, submitted: false, error: null });
-
+  
     try {
       const formDataObj = new FormData();
       formDataObj.append('name', formData.name);
       formDataObj.append('email', formData.email);
       formDataObj.append('message', formData.message);
-
-      const response = await fetch('https://script.google.com/macros/s/AKfycby7t1IJ3dDz5lSqIfutyEK__LYR6q54_J9FFqC9c_VqlrLxJjYCDLDmFNdbJXfSm10v/exec', {
+  
+      const response = await fetch('https://script.google.com/macros/s/AKfycbwq-RlE1riT_gxyqSJIFwY9ZRuIZDOYQLg9-fWzZvfHgdQNIvwjWj6xs2hiZ-3WlWo5/exec', {
         method: 'POST',
-        body: formDataObj
+        mode: 'cors',
+        credentials: 'omit',  // Add this
+        body: formDataObj,
+        headers: {
+          'Accept': 'application/json',
+          'Origin': 'https://luxigoo.com'  // Add this
+        }
       });
-
+  
+      const data = await response.json();
+      
       if (response.ok) {
         setStatus({ submitting: false, submitted: true, error: null });
-        setFormData({ name: '', email: '', message: '' }); // Reset form
+        setFormData({ name: '', email: '', message: '' });
       } else {
-        throw new Error('Failed to submit form');
+        throw new Error(data.error || 'Failed to submit form');
       }
     } catch (error) {
+      console.error('Submission error:', error);
       setStatus({ submitting: false, submitted: false, error: error.message });
     }
   };
