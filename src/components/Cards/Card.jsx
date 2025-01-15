@@ -4,25 +4,25 @@ export default function Card() {
   const destinations = [
     {
       title: "Malaysia",
-      image: "/Luxigoo_Landing_Page/images/Malaysia.png",
+      image: "/images/Malaysia.png",
       days: "5 Days",
       location: "The Petronas Towers",
     },
     {
       title: "Lakshadweep",
-      image: "/Luxigoo_Landing_Page/images/Lakshadweep.png",
+      image: "/images/Lakshadweep.png",
       days: "6 Days",
       location: "Virgin shore of kalpeni",
     },
     {
       title: "Thailand",
-      image: "/Luxigoo_Landing_Page/images/Thailand.png",
+      image: "/images/Thailand.png",
       days: "5 Days",
       location: "Bangkok",
     },
     {
       title: "Jammu & Kashmir",
-      image: "/Luxigoo_Landing_Page/images/Kashmir.png",
+      image: "/images/Kashmir.png",
       days: "4 Days",
       location: "Sonamarg , Jammu & Kashmir",
     },
@@ -50,7 +50,7 @@ export default function Card() {
             />
             <div className="py-8 px-4">
               <div className="flex gap-2">
-                <img src="/Luxigoo_Landing_Page/images/Location.svg" alt="" />
+                <img src="/images/Location.svg" alt="" />
                 <p className="text-xs text-gray-600">{destination.location}</p>
               </div>
 
