@@ -29,7 +29,7 @@ export default function RightSection() {
           className="absolute right-20  bg-white rounded-xl p-1 item2  animate-image"
         >
           <img
-            src="/images/item2.png"
+            src="\images\item2.png"
             alt="Travel destination"
             className="rounded-xl shadow-lg w-52 h-42 object-cover"
           />
@@ -39,7 +39,7 @@ export default function RightSection() {
           style={{ top: 450, left: 140, animationDelay: "4s" }}
         >
           <img
-            src="/images/item3.png"
+            src="\images\item3.png"
             alt="Travel destination"
             className="rounded-xl shadow-lg w-52 h-42 object-cover"
           />
@@ -50,7 +50,7 @@ export default function RightSection() {
           style={{ top: 170, left: 230 }}
         >
           <img
-            src="/images/plane.png"
+            src="\images\plane.png"
             alt="Travel destination"
             className="rounded-xl w-58 h-52 object-cover"
           />
@@ -58,7 +58,7 @@ export default function RightSection() {
 
         {/* Floating Text */}
         <div className="absolute floating-text -bottom-4 right-4 bg-white px-4 py-2 rounded-full shadow-lg flex items-center gap-2">
-          <img src="/images/ic_baseline-flight.svg" alt="Flight icon" />
+          <img src="\images\ic_baseline-flight.svg" alt="Flight icon" />
           <span className=" text-sm font-medium">Jakarta - Bali</span>
         </div>
       </div>
