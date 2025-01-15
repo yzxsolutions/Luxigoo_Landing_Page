@@ -18,7 +18,7 @@ export default function RightSection() {
         {/* Dummy Images */}
         <div className="absolute top-10 bg-white rounded-xl p-1 item1 animate-image">
           <img
-            src="public/images/item1.png"
+            src="../public/images/item1.png"
             alt="Travel destination"
             className="rounded-xl shadow-lg w-58 h-42 object-cover"
             style={{ animationDelay: "0s" }}
