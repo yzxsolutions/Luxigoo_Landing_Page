@@ -57,7 +57,7 @@ const CountdownTimer = ({ targetDate }) => {
       <div className="w-full max-w-2xl  backdrop-blur-sm rounded-2xl p-8">
         <h2 className="text-xl font-semibold mb-6 text-center text-gray-800">
         Premium Travel Experience,<br/> 
-        launching soon:
+        Launching Soon:
         </h2>
         <div className="flex justify-center gap-4">
           {timeBoxes.map(({ label, value, shades }) => (

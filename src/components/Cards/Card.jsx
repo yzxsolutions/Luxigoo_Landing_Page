@@ -34,7 +34,7 @@ export default function Card() {
         Popular Destinations
       </h2>
       <p className="text-gray-600 mb-8">
-        Vacations to make your experience enjoyable in Indonesia!
+        Vacations to make your experience enjoyable!
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6  ">
