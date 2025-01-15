@@ -1,0 +1,51 @@
+@media only screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .circle-background {
+        height: 428px !important;
+        width: 405px !important;
+    }
+
+    .item1 {
+        width: 188px !important;
+        top: 48px !important;
+        left: -17px !important;
+    }
+
+    .item2 {
+        top: 181px !important;
+    }
+
+
+    .item3 {
+        top: 345px !important;
+        left: 251px !important;
+    }
+
+    .plane-animation img {
+        height: 8rem !important;
+    }
+
+    .plane-animation {
+        top: 94px !important;
+        left: 88px !important;
+    }
+
+    .floating-text {
+        bottom: 24rem !important;
+    }
+
+    .main-section {
+        margin-top: 90px;
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .button-small {
+        margin-top: 100px !important;
+    }
+
+}

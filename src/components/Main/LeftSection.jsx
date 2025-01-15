@@ -1,5 +1,3 @@
-import Counter from "./Counter";
-
 export default function LeftSection() {
   return (
     <div className="space-y-6 mt-20">

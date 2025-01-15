@@ -1,11 +1,14 @@
 import "/src/styles/plainAnimation.css";
 import "/src/styles/floatingAnimation.css";
+
+import "/src/styles/mediaquery.css";
+
 export default function RightSection() {
   return (
     <div className="relative w-full h-full flex justify-center items-center">
       {/* Background Image */}
       <div
-        className="relative bg-cover bg-center rounded-xl"
+        className="relative bg-cover bg-center rounded-xl circle-background"
         style={{
           height: "600px",
           width: "700px",
@@ -13,7 +16,7 @@ export default function RightSection() {
         }}
       >
         {/* Dummy Images */}
-        <div className="absolute top-10 bg-white rounded-xl p-1 animate-image">
+        <div className="absolute top-10 bg-white rounded-xl p-1 item1 animate-image">
           <img
             src="/src/assets/images/item1.png"
             alt="Travel destination"
@@ -23,7 +26,7 @@ export default function RightSection() {
         </div>
         <div
           style={{ top: 310, animationDelay: "2s" }}
-          className="absolute right-20  bg-white rounded-xl p-1  animate-image"
+          className="absolute right-20  bg-white rounded-xl p-1 item2  animate-image"
         >
           <img
             src="/src/assets/images/item2.png"
@@ -32,7 +35,7 @@ export default function RightSection() {
           />
         </div>
         <div
-          className="absolute  bg-white rounded-xl p-1 animate-image"
+          className="absolute  bg-white rounded-xl p-1 item3 animate-image"
           style={{ top: 450, left: 140, animationDelay: "4s" }}
         >
           <img
@@ -54,7 +57,7 @@ export default function RightSection() {
         </div>
 
         {/* Floating Text */}
-        <div className="absolute -bottom-4 right-4 bg-white px-4 py-2 rounded-full shadow-lg flex items-center gap-2">
+        <div className="absolute floating-text -bottom-4 right-4 bg-white px-4 py-2 rounded-full shadow-lg flex items-center gap-2">
           <img
             src="/src/assets/images/ic_baseline-flight.svg"
             alt="Flight icon"
