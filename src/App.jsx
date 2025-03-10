@@ -45,7 +45,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="w-full flex items-center justify-center mt-28 mb-28">
-          <CountdownTimer targetDate={"2025-03-10T00:00:00"} />
+          <CountdownTimer targetDate={"2025-04-30T00:00:00"} />
         </div>
 
         {/* Popular Destinations */}
